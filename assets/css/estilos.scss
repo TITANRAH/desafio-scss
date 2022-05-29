@@ -1,0 +1,33 @@
+@import "../../bootstrap-5.1.3/scss/bootstrap.scss";
+
+$negro : black;
+
+.fondo{
+ 
+    background-color: $negro ;
+    color: $purple;
+    border-radius: 10px;
+}
+
+.colorblanco {
+    color: white;
+}
+
+.card {
+
+    padding: 1rem;
+    @extend .fondo;
+
+        .card-title {
+
+        @extend .colorblanco;
+
+        }
+
+        a {
+
+        @extend .colorblanco;
+        
+        }
+
+}
